@@ -1,0 +1,151 @@
+/* Reset des marges et des paddings */
+/* stylesql1.css */
+
+/* Appliquer la vidéo en arrière-plan */
+bady{
+  margin: 0;
+  padding: 0;
+}
+
+.d{
+  height: 745px;
+  background-image: url('WhatsApp Image 2023-12-10 à 19.50.49_1d2dd345.jpg');
+  background-attachment: fixed;
+  
+}
+
+/* Logo */
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(3, 0, 12);
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;  
+  margin-left: 0px;  
+
+}
+
+.h {
+  font-family: 'Time New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 160px;
+  letter-spacing: 2px;
+  position:relative;
+  top: 20px;
+  left: 0px;
+  bottom: 10px;
+  color: rgb(3, 0, 12);
+
+}
+.par {
+  text-align: left;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 50px; /* Ajustez la position verticale du paragraphe */
+  left: 20px;
+}
+
+
+
+/* Appliquer un arrière-plan coloré pour le reste de la page */
+
+
+/* Le reste de votre CSS ici... */
+
+  
+  /* En-tête */
+  header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+  }
+  
+  /* Menu */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 10px 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: blue;
+  }
+  
+  nav {
+    position: absolute;
+    top: 50px; /* Ajustez la position verticale du menu */
+    left: 70%; /* Centrer le menu horizontalement */
+    transform: translateX(-50%);
+    z-index: 1; /* Assurez-vous que le menu est au-dessus de la vidéo */
+    background-color: blue;
+    padding: 10px 0;
+    background: transparent;
+    border: 2px solid rgb(23, 23, 30);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    width: 850px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+.paragraph:hover{
+    background-color: rgb(187, 221, 234);
+}
+.paragraph{
+ width:31% ;
+ height: 220px;
+ float: left;
+ padding: 10px;
+ background-color: rgb(107, 107, 201);
+ backdrop-filter: blur(20px);
+ border: 2px solid rgb(23, 23, 30);
+ border-radius: 10px;
+ margin-right: 32px;
+ background: transparent;
+}
+.p1{
+ text-align: center;
+ margin-bottom: 0%;
+ color: black;
+ font-size: 25px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
