@@ -79,5 +79,3 @@ Le système utilise MySQL, conçu via Merise :
 
 **Ismail – Développeur Web**
 Projet académique : Gestion d’un Centre de Formation
-uter **les badges GitHub** (PHP, MySQL, Bootstrap, etc.)
-Juste dis-moi !
